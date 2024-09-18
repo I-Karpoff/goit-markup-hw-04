@@ -164,6 +164,7 @@ p {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/bg-section1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -233,7 +234,7 @@ p {
 .box-icon-benefits {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 264px;
   height: 112px;
   border-radius: 4px;
@@ -320,10 +321,6 @@ p {
   border-radius: 50%;
 }
 
-.icon-svg-benefits {
-  width: 64px;
-  height: 64px;
-}
 .svg-social-icons {
   width: 100%;
 }
