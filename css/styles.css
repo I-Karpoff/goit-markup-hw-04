@@ -442,7 +442,7 @@ p {
 }
 
 .logo-footer-div {
-  padding-right: 120px;
+  margin-right: 120px;
 }
 
 .footer-social-ul {
@@ -451,6 +451,8 @@ p {
 }
 
 .social-footer {
+  color: #ffffff;
+  font-weight: 500;
   margin-bottom: 16px;
 }
 
