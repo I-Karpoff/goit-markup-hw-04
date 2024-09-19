@@ -452,6 +452,8 @@ p {
 
 .p-social-footer {
   color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-weight: 500;
   margin-bottom: 16px;
 }
