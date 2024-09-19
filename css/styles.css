@@ -243,13 +243,6 @@ p {
   margin-bottom: 8px;
 }
 
-.icon-svg-team {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .benefits-ul {
   display: flex;
   gap: 24px;
@@ -308,16 +301,24 @@ p {
 }
 
 .link-social {
-  display: block;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-social:hover,
+.link-social:focus {
+  background-color: #404bbf;
 }
 
 .svg-social-icons {
   width: 100%;
+  fill: #f4f4fd;
 }
 
 .our-team-li {
