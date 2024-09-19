@@ -47,7 +47,7 @@ p {
 
 .flex {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 /* ===== HEADER ======= */
@@ -439,6 +439,35 @@ p {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+
+.logo-footer-div {
+  padding-right: 120px;
+}
+
+.footer-social-ul {
+  display: flex;
+  gap: 16px;
+}
+
+.social-footer {
+  margin-bottom: 16px;
+}
+
+.link-social-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-social-footer:hover,
+.link-social-footer:focus {
+  background-color: #31d0aa;
 }
 
 /* end */
