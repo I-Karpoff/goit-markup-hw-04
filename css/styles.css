@@ -19,7 +19,12 @@ a {
 }
 
 button {
+  font-family: inherit;
   cursor: pointer;
+}
+
+input {
+  font-family: inherit;
 }
 
 img {
